@@ -1,0 +1,50 @@
+.newsLetter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        width: 45%;
+        color: $colorFont;
+        size: 20px;
+        text-align: center;
+    }
+    &__text {
+        width: 50%;
+        text-align: center;
+    }
+    &__titleImput {
+        color: $colorFont;
+        size: 18px;
+    }
+    &__inputNombre {
+        width: 20%;
+        height: 10px;
+        padding: 12px 20px;
+        border: 2px solid #00439c;
+        transition: 0.5s;
+    }
+    &__inputCorreo {
+        width: 20%;
+        height: 10px;
+        padding: 12px 20px;
+        border: 2px solid #00439c;
+        transition: 0.5s;
+    }
+    &__Btn {
+        color: white;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        background-color: #00439c;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+}

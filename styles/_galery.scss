@@ -1,0 +1,32 @@
+.galery{
+    background-color: #00439C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+&__title{
+    color: white;
+    }
+&__cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ &__peque{
+     margin-top: 50px;
+     margin-bottom: 50px;
+     width: 80%;
+    display: flex;
+    justify-content: space-between;;
+    
+    img{
+        width: 200px;
+        height: 100px;
+        &:hover{
+          opacity: .7;  
+          cursor: pointer;
+        }
+    }    
+}
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+$primary-color: #E5E5E5;
+
+//tipografia
+$colorFont: #00439C;
+$font:'Poppins', sans-serif;
+
+@import 'general';
+@import 'header';
+@import 'baner';
+@import 'galery';
+@import 'promo';
+@import 'item';
+@import 'especifications';
+@import 'newsLetter';
+@import 'footer';
+@import 'carrousel';

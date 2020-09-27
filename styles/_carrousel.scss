@@ -1,0 +1,44 @@
+.carrousel{
+
+
+    &__title{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+&__subtitle{
+    display: flex;
+    justify-content: center;
+   
+
+}
+&__btn{
+    margin-left: 100px;
+    &:hover{
+        color: $colorFont;
+        cursor: pointer;
+        transition: transform .6 ease;
+        
+    }
+}
+
+
+    &__stripe{
+        width: 1500px;;
+        overflow: hidden;
+        display: flex;
+        transition: transform .6 ease;
+        
+        
+    }
+
+&__img{
+    display: none;
+    
+    &--active{
+        display: block;
+        
+    }
+}
+
+}

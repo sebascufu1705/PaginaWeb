@@ -1,0 +1,17 @@
+.baner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+&__title{
+  color: $colorFont;
+  font-size: 50px;
+  margin-left: 150px;
+}
+&__paragraph{
+    color: $colorFont;
+    margin-left: 150px;
+}
+
+}
+
