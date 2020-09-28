@@ -34,11 +34,14 @@
         
           }
           @media (max-width: 810px){
-            margin-left: 400px;
+            margin-left: 300px;
             font-size: 10px;
-           
-        
           }
+          @media (max-width: 300spx){
+            margin-left: 50px;
+            font-size: 10px;
+          }
+           
            
        }
 

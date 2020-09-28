@@ -227,7 +227,14 @@ body {
 
 @media (max-width: 810px) {
   .promo__textWrap--rocked {
-    margin-left: 400px;
+    margin-left: 300px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 300spx) {
+  .promo__textWrap--rocked {
+    margin-left: 50px;
     font-size: 10px;
   }
 }
