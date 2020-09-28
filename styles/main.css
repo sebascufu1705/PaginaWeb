@@ -14,6 +14,10 @@ body {
           align-items: center;
 }
 
+.header__logo {
+  width: 10%;
+}
+
 .header p {
   margin-left: 40px;
 }
@@ -41,9 +45,43 @@ body {
   margin-left: 150px;
 }
 
+@media (max-width: 976px) {
+  .baner__title {
+    font-size: 30px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 810px) {
+  .baner__title {
+    font-size: 20px;
+  }
+}
+
 .baner__paragraph {
   color: #00439C;
   margin-left: 150px;
+}
+
+@media (max-width: 976px) {
+  .baner__paragraph {
+    font-size: 12px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 810px) {
+  .baner__paragraph {
+    font-size: 10px;
+  }
+}
+
+.baner__sectionImg {
+  width: 60%;
+}
+
+.baner__img {
+  width: 100%;
 }
 
 .galery {
