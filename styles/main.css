@@ -103,6 +103,7 @@ body {
 }
 
 .galery {
+  width: 100%;
   background-color: #00439C;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -131,7 +132,7 @@ body {
 
 @media (max-width: 810px) {
   .galery__title {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
@@ -143,6 +144,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.galery__img {
+  width: 80%;
 }
 
 .galery__peque {
@@ -158,8 +163,8 @@ body {
 }
 
 .galery__peque img {
-  width: 200px;
-  height: 100px;
+  width: 20%;
+  height: 100%;
 }
 
 .galery__peque img:hover {
