@@ -195,6 +195,19 @@ body {
           justify-content: center;
 }
 
+@media (max-width: 976px) {
+  .promo__textWrap {
+    font-size: 12px;
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 810px) {
+  .promo__textWrap {
+    font-size: 10px;
+  }
+}
+
 .promo__textWrap--rocked {
   margin-left: 900px;
   display: -webkit-box;
@@ -203,6 +216,20 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+@media (max-width: 976px) {
+  .promo__textWrap--rocked {
+    font-size: 12px;
+    margin-left: 500px;
+  }
+}
+
+@media (max-width: 810px) {
+  .promo__textWrap--rocked {
+    margin-left: 400px;
+    font-size: 10px;
+  }
 }
 
 .promo__title {
@@ -214,6 +241,7 @@ body {
 }
 
 .promo--grandTurismo {
+  width: 100%;
   background-image: url("../imagenes/turismo.png");
 }
 

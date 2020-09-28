@@ -9,11 +9,36 @@
         flex-direction: column;
         margin-left: 250px;
         justify-content: center;
+
+        @media (max-width: 976px){
+
+            font-size: 12px;
+            margin-left: 200px;
+        
+          }
+          @media (max-width: 810px){
+        
+            font-size: 10px;
+           
+        
+          }
     
        &--rocked{
            margin-left: 900px;
            display: flex;
            align-items: flex-end;
+           @media (max-width: 976px){
+
+            font-size: 12px;
+            margin-left: 500px;
+        
+          }
+          @media (max-width: 810px){
+            margin-left: 400px;
+            font-size: 10px;
+           
+        
+          }
            
        }
 
@@ -30,6 +55,7 @@
     }
 
     &--grandTurismo{
+        width:100%;
         background-image: url("../imagenes/turismo.png");
         
 
