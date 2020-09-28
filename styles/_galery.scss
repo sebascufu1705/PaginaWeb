@@ -7,6 +7,15 @@
 
 &__title{
     color: white;
+
+    @media (max-width: 976px) {
+        font-size: 12px;
+    }
+
+    @media (max-width: 810px){
+        font-size: 10px;
+    }
+
     }
 &__cont{
     width: 100%;

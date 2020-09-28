@@ -18,6 +18,22 @@ body {
   width: 10%;
 }
 
+.header__texto {
+  font-size: 16px;
+}
+
+@media (max-width: 976px) {
+  .header__texto {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 810px) {
+  .header__texto {
+    font-size: 10px;
+  }
+}
+
 .header p {
   margin-left: 40px;
 }
@@ -55,6 +71,7 @@ body {
 @media (max-width: 810px) {
   .baner__title {
     font-size: 20px;
+    margin-left: 60 px;
   }
 }
 
@@ -73,6 +90,7 @@ body {
 @media (max-width: 810px) {
   .baner__paragraph {
     font-size: 10px;
+    margin-left: 60px;
   }
 }
 
@@ -103,6 +121,18 @@ body {
 
 .galery__title {
   color: white;
+}
+
+@media (max-width: 976px) {
+  .galery__title {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 810px) {
+  .galery__title {
+    font-size: 10px;
+  }
 }
 
 .galery__cont {
