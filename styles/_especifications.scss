@@ -12,14 +12,64 @@
         margin-left: 900px;
         justify-content: space-evenly;
         padding: 20px;
+
+        @media (max-width: 976px){
+
+            margin-left: 600px;
+           
+        
+          }
+          @media (max-width: 810px){
+        
+            margin-left: 400px;
+            
+        
+          }
+          @media (max-width: 400spx){
+            
+            margin-left: 200px;
+          }
+
     }
 
     &__title{
         color: white;
         font-size: 20px;
+        @media (max-width: 976px){
+
+            font-size: 16px;
+           
+        
+          }
+          @media (max-width: 810px){
+        
+            font-size: 12px;
+            
+        
+          }
+          @media (max-width: 300spx){
+            
+            font-size: 10px;
+          }
     }
     &__text{
         color: white;
         font-size: 12px;;
+        @media (max-width: 976px){
+
+            font-size: 10px;
+            
+        
+          }
+          @media (max-width: 810px){
+        
+            font-size: 9px;
+           
+        
+          }
+          @media (max-width: 300spx){
+            
+            font-size: 8px;
+          }
     }
 }

@@ -24,7 +24,7 @@ align-items: center;
 
 
     &__stripe{
-        width: 1500px;;
+        width: 100%;;
         overflow: hidden;
         display: flex;
         transition: transform .6 ease;
@@ -37,6 +37,7 @@ align-items: center;
     
     &--active{
         display: block;
+        width: 100%;
         
     }
 }

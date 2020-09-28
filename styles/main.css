@@ -75,6 +75,13 @@ body {
   }
 }
 
+@media (max-width: 300spx) {
+  .baner__title {
+    margin-left: 50px;
+    font-size: 8px;
+  }
+}
+
 .baner__paragraph {
   color: #00439C;
   margin-left: 150px;
@@ -312,14 +319,68 @@ body {
   padding: 20px;
 }
 
+@media (max-width: 976px) {
+  .especifications__wrap {
+    margin-left: 600px;
+  }
+}
+
+@media (max-width: 810px) {
+  .especifications__wrap {
+    margin-left: 400px;
+  }
+}
+
+@media (max-width: 400spx) {
+  .especifications__wrap {
+    margin-left: 200px;
+  }
+}
+
 .especifications__title {
   color: white;
   font-size: 20px;
 }
 
+@media (max-width: 976px) {
+  .especifications__title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 810px) {
+  .especifications__title {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 300spx) {
+  .especifications__title {
+    font-size: 10px;
+  }
+}
+
 .especifications__text {
   color: white;
   font-size: 12px;
+}
+
+@media (max-width: 976px) {
+  .especifications__text {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 810px) {
+  .especifications__text {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 300spx) {
+  .especifications__text {
+    font-size: 8px;
+  }
 }
 
 .newsLetter {
@@ -396,19 +457,54 @@ body {
 }
 
 .footer {
+  width: 100%;
   background-color: #00439C;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100px;
+}
+
+.footer__img {
+  width: 10%;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 .footer__text {
-  width: 200px;
+  width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 500px;
   color: white;
+}
+
+@media (max-width: 976px) {
+  .footer__text {
+    font-size: 16px;
+    margin-left: 300px;
+  }
+}
+
+@media (max-width: 810px) {
+  .footer__text {
+    font-size: 12px;
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 300spx) {
+  .footer__text {
+    font-size: 10px;
+    margin-left: 100px;
+  }
 }
 
 .carrousel__title {
@@ -447,7 +543,7 @@ body {
 }
 
 .carrousel__stripe {
-  width: 1500px;
+  width: 100%;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -464,5 +560,6 @@ body {
 
 .carrousel__img--active {
   display: block;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
